@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion del DOM basico- Curso basico de JS</title>
+</head>
+<body>
+    <h1>Manipulacion del DOM basico- Curso basico de JS</h1>
+    <h2>Crearemos una calculadora basica</h2>
+
+<form id="formulario">
+
+    <!-- Añadimos los datos de entrada -->
+<input id="calculo1" placeholder="Escribe algo aqui">
+<input id="calculo2" placeholder="Escribe algo aqui">
+
+<!--Añadimos los botones que realizaran diferentes acciones
+cada boton debe tener un id o clase para que puede ser identificado en el js
+tambien debe tener una accion en este caso es onclick (cuando se da clik en ek boton )
+luego de la accion bienen la funciones que estan dentro de ellas y estan programadas en JS-->
+<button id="btnSumar" > Sumar</button>
+<button id="btnRestar" > Restar</button>
+<button id="btnMultiplicar" > Multiplicar</button>
+<button id="btnDividir" > Dividir</button>
+
+<!-- Añadimos los datos de salida que mostraran los resultados-->
+<p id="resultado">resultado</p>
+
+</form>
+
+<!-- El script debe ir siempre al final para que pueda ejecutar el codigo js-->
+    <script src="./main.js"> </script>
+    
+</body>
+</html>
